@@ -5,81 +5,81 @@ void main() {
 // 3) Выведите столбец четных чисел в промежутке от 0 до 100.
 // 4) С помощью цикла найдите сумму чисел от 1 до 100.
 
-  // int i = 1;
-//   do {
-//     print(i);
-//     i++;
-//   } while (i <= 100);
+  int i = 1;
+  do {
+    print(i);
+    i++;
+  } while (i <= 100);
 
-//   print("-" * 20);
+  print("-" * 20);
 
-//   while (i <= 100) {
-//     print(i);
-//     i++;
-//   }
+  while (i <= 100) {
+    print(i);
+    i++;
+  }
 
-//   print("-" * 20);
+  print("-" * 20);
 
-//   for (int i = 1; i <= 100; i++) {
-//     print(i);
-//   }
+  for (int i = 1; i <= 100; i++) {
+    print(i);
+  }
 
-// // 2) Выведите столбец чисел от 11 до 33.
+// 2) Выведите столбец чисел от 11 до 33.
 
-//   do {
-//     print(i);
-//     i++;
-//   } while (i <= 33);
+  do {
+    print(i);
+    i++;
+  } while (i <= 33);
 
-//   while (i <= 33) {
-//     print(i);
-//     i++;
-//   }
+  while (i <= 33) {
+    print(i);
+    i++;
+  }
 
-//   for (int i = 1; i <= 33; i++) {
-//     print(i);
-//   }
+  for (int i = 1; i <= 33; i++) {
+    print(i);
+  }
 // 3) Выведите столбец четных чисел в промежутке от 0 до 100.
 
-// do{
-//   if(i % 2 == 0){
-//     print(i);
-//   }
-//   i++;
-// }while(i<100);
+do{
+  if(i % 2 == 0){
+    print(i);
+  }
+  i++;
+}while(i<100);
 
-// while(i<=100){
-//   if(i % 2==0){
-//     print(i);
-//   }
-//   i++;
-// }
+while(i<=100){
+  if(i % 2==0){
+    print(i);
+  }
+  i++;
+}
 
-// for(int i = 0;i<=100;i++){
-//   if(i % 2==0){
-//     print(i);
-//   }
-// }
+for(int i = 0;i<=100;i++){
+  if(i % 2==0){
+    print(i);
+  }
+}
 
 // 4) С помощью цикла найдите сумму чисел от 1 до 100.
 
 int sum =0;
-int i = 0;
-// do{
-//   sum +=i;
-//   i++;
-// }while(i <=100);
-// print(sum);
+int j = 0;
+do{
+  sum +=i;
+  j++;
+}while(j <=100);
+print(sum);
 
-while(i <=100){
-  sum += i;
-  i++;
+while(j <=100){
+  sum += j;
+  j++;
 }
 print(sum);
 
-// for(int i =0;i <=100;i++){
-//    sum  += i;
-// }
-// print(sum);
+for(int i =0;i <=100;i++){
+   sum  += i;
+}
+print(sum);
 
 }
